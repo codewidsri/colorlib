@@ -209,7 +209,7 @@ collections = () => {
 
 uploadimage = () => {
     if (!window.EyeDropper) {
-        document.getElementsByClassName('image-area')[0].innerHTML = 'Your browser does not support the EyeDropper API';
+        document.getElementById('error').innerHTML = 'Your browser does not support the EyeDropper API';
     } else {
         let input = document.getElementById('upload');
         let reader = new FileReader()
