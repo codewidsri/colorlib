@@ -50,8 +50,8 @@ header nav .container-fluid .row .col:not(:first-child):hover{
 
 /*-----------------------------------------------main-------------------------------------------*/
 main .container .row{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 main .container .row .col{
@@ -115,7 +115,7 @@ img{
     color: whitesmoke;
     cursor: pointer;
 }
-/*--------footer-----------*/
+/*------------------------===========------footer---------------------------------------*/
 footer .container-fluid .row {
     position: fixed;
     width: 100%;
