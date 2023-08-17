@@ -147,6 +147,9 @@ footer .container-fluid .row .col:hover {
     footer .container-fluid .row .col h6{
         font-size: 12px;
     }
+    main .container .row{
+        margin-bottom: 10%;
+    }
     main .container .row .col div span{
         width: 60%;
     }
