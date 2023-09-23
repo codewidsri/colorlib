@@ -141,9 +141,6 @@ footer .container-fluid .row .col:hover {
 
 /*mobile devices*/
 @media only screen and (max-width: 768px){
-    body{
-        background-color: rebeccapurple;
-    }
     footer .container-fluid .row .col i{
         font-size: 20px;
     }
@@ -153,8 +150,9 @@ footer .container-fluid .row .col:hover {
     main .container .row{
         margin-bottom: 15%;
     }
-    main .container .row .col div span{
-        font-size: 7px;
+    main .container .row .col div:nth-child(4){
+        color: black;
+        font-size: 10px;
     }
     main .container .row .col{
         padding: 15% 20% 0 20%;
