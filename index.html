@@ -35,9 +35,12 @@
 
     <main>
         <div class="container">
-            <div class="row content" id="random"></div>
-            <div class="row" id="randombtn"><center><div class="col"><button class="btn btn-primary"><i class="fa fa-plus-circle"></i>&nbsp;Load More</button></div></center></div>
-            <div class="row content" id="new"></div>
+            <div class="row content" id="random" onscroll="random()">
+                <center><div class="col"><button class="btn btn-primary"><i class="fa fa-plus-circle"></i>&nbsp;Load More</button></div></center>
+            </div>
+            <div class="row content" id="new" onscroll="news()">
+                <center><div class="col"><button class="btn btn-primary"><i class="fa fa-plus-circle"></i>&nbsp;Load More</button></div></center>
+            </div>
             <div class="row content" id="shades"></div>
             <div class="row content" id="collections"></div>
             <div class="row align-items-center content" id="upload-image">
