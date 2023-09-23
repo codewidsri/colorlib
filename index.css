@@ -139,7 +139,7 @@ footer .container-fluid .row .col:hover {
     border-radius: 10px;
 }
 
-/*mobile devices*/
+/*---------------------------------mobile devices-------------------------------------*/
 @media only screen and (max-width: 768px){
     footer .container-fluid .row .col i{
         font-size: 20px;
@@ -151,7 +151,6 @@ footer .container-fluid .row .col:hover {
         margin-bottom: 15%;
     }
     main .container .row .col div:nth-child(4){
-        color: red;
         font-size: 10px;
     }
     main .container .row .col{
@@ -160,7 +159,7 @@ footer .container-fluid .row .col:hover {
     }
 }
 
-/*tablet devices*/
+/*--------------------------------tablet devices-------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 1000px){
     footer .container-fluid .row .col i{
         font-size: 20px;
