@@ -12,21 +12,21 @@ tabchange = (evt, content) => {
     }
     evt.currentTarget.className += " active";
     if (content == 'random') {
-        document.addEventListener('scroll', () => {
+        /*document.addEventListener('scroll', () => {
             const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight
             if (window.scrollY >= scrollableHeight) {
                 random(content);
             }
-        });
+        });*/
         random(content);
     }
     if (content == 'new') {
-        document.addEventListener('scroll', () => {
+        /*document.addEventListener('scroll', () => {
             const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight
             if (window.scrollY >= scrollableHeight) {
                 news(content);
             }
-        });
+        });*/
         news(content);
     }
     if (content == 'collections') {

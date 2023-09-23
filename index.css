@@ -98,6 +98,10 @@ main .container .row .col div:hover span{
     opacity: 1;
 }
 
+#randombtn{
+    display: none;
+}
+
 img{
     max-width: 450px;
     max-height: 450px;
@@ -115,7 +119,7 @@ img{
     color: whitesmoke;
     cursor: pointer;
 }
-/*------------------------===========------footer---------------------------------------*/
+/*--------------------------------------footer---------------------------------------*/
 footer .container-fluid .row {
     position: fixed;
     width: 100%;
@@ -151,11 +155,14 @@ footer .container-fluid .row .col:hover {
         margin-bottom: 15%;
     }
     main .container .row .col div:nth-child(4){
-        font-size: 15px;
+        font-size: 10px;
     }
     main .container .row .col{
         padding: 15% 20% 0 20%;
         width: 100%;
+    }
+    #randombtn{
+        display: block;
     }
 }
 
