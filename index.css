@@ -150,7 +150,9 @@ footer .container-fluid .row .col:hover {
     main .container .row{
         margin-bottom: 15%;
     }
-    
+    main .container .row .col div span{
+        font-size: 7px;
+    }
     main .container .row .col{
         padding: 15% 20% 0 20%;
         width: 100%;
