@@ -151,8 +151,8 @@ footer .container-fluid .row .col:hover {
         margin-bottom: 15%;
     }
     main .container .row .col div:nth-child(4){
-        color: black;
-        font-size: 10px;
+        color: red;
+        font-size: 15px;
     }
     main .container .row .col{
         padding: 15% 20% 0 20%;
