@@ -98,6 +98,10 @@ main .container .row .col div:hover span{
     opacity: 1;
 }
 
+#randombtn,#newbtn{
+   display: none;
+}
+
 img{
     max-width: 450px;
     max-height: 450px;
